@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
 
 namespace AOC2020
 {
@@ -10,8 +9,9 @@ namespace AOC2020
         {
             string[] initialInput = File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day3.txt");
             char[][] processedInput = new char[initialInput.Length][];
-            
-            for (int i = 0; i < initialInput.Length; i++) {
+
+            for (int i = 0; i < initialInput.Length; i++)
+            {
                 var charArr = initialInput[i].ToCharArray();
                 processedInput[i] = charArr;
             }
