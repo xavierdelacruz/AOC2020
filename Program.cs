@@ -30,9 +30,12 @@ namespace AOC2020
             // Console.WriteLine(day4.CountValidPassports(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day4.txt"));
             // Console.WriteLine(day4.CountValidPassportsWithStrictRegex(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day4.txt"));
 
-            var day5 = new Day5();
-            var res = day5.FindHighestSeatNumber(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day5.txt"));
-            Console.WriteLine("Highest Seat ID: " + res.highestSeat + " My Seat: " + res.mySeat);
+            // var day5 = new Day5();
+            // var res = day5.FindHighestSeatNumber(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day5.txt"));
+            // Console.WriteLine("Highest Seat ID: " + res.highestSeat + " My Seat: " + res.mySeat);
+
+            var day6 = new Day6();
+            Console.WriteLine(day6.CountValidGroupConcensus(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day6.txt"));
         }
     }
 }
