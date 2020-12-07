@@ -34,8 +34,11 @@ namespace AOC2020
             // var res = day5.FindHighestSeatNumber(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day5.txt"));
             // Console.WriteLine("Highest Seat ID: " + res.highestSeat + " My Seat: " + res.mySeat);
 
-            var day6 = new Day6();
-            Console.WriteLine(day6.CountValidGroupConcensus(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day6.txt"));
+            // var day6 = new Day6();
+            // Console.WriteLine(day6.CountValidGroupConcensus(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day6.txt"));
+
+            var day7 = new Day7();
+            Console.WriteLine(day7.FindBagsThatContainGoldBag(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt"));
         }
     }
 }
