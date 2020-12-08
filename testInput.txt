@@ -1,1 +1,9 @@
-light red bags contain 1 bright white bag, 2 muted yellow bags.
+nop +0
+acc +1
+jmp +4
+acc +3
+jmp -3
+acc -99
+acc +1
+jmp -4
+acc +6

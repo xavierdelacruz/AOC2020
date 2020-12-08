@@ -37,8 +37,11 @@ namespace AOC2020
             // var day6 = new Day6();
             // Console.WriteLine(day6.CountValidGroupConcensus(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day6.txt"));
 
-            var day7 = new Day7();
-            Console.WriteLine(day7.FindBagsThatContainGoldBag(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt"));
+            // var day7 = new Day7();
+            // Console.WriteLine(day7.FindBagsThatContainGoldBag(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt"));
+
+            var day8 = new Day8();
+            Console.WriteLine(day8.AccFixLoop(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day8.txt")));
         }
     }
 }
