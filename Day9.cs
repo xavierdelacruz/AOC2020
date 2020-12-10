@@ -5,7 +5,6 @@ using System.Linq;
 public class Day9 {
 
     public Day9() {
-    
     }
 
     public long FindBadNumber(string path) {
@@ -19,7 +18,7 @@ public class Day9 {
         // If that item exists in window, then we know it is the sum.
         foreach (var item in remaining) {
             var res = FindBadNumberHelper(window, item);
-            if (res < 0) {
+            if (res <= 0) {
                 return item;
             }
             window.Add(item);
@@ -33,8 +32,6 @@ public class Day9 {
             var diff = Math.Abs(item - window[i]);
             if (window.Contains(diff)) {
                 return window[i];
-            } else {
-                return -1;
             }
         }
         return -1;
