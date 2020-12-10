@@ -54,6 +54,9 @@ public class Day10 {
 
         // Now sort (or kith)
         adapters.Sort();
+
+        // We need to go backwards since that is where the 0th adapter is.
+        // Easier to iterate because of positive steps.
         adapters.Reverse();
 
         var dp = new Dictionary<int, long>();
