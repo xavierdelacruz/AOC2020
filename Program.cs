@@ -46,8 +46,11 @@ namespace AOC2020
             //var day9 = new Day9();
             // Console.WriteLine(day9.FindBadNumber(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt"));
 
-            var day10 = new Day10();
-            Console.WriteLine(day10.CountGroupDifference(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day10.txt")));
+            // var day10 = new Day10();
+            // Console.WriteLine(day10.CountGroupDifference(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day10.txt")));
+
+            var day11 = new Day11();
+            Console.WriteLine(day11.Part1(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt")));
         }
     }
 }
