@@ -49,8 +49,11 @@ namespace AOC2020
             // var day10 = new Day10();
             // Console.WriteLine(day10.CountGroupDifference(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day10.txt")));
 
-            var day11 = new Day11();
-            Console.WriteLine(day11.Part1(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt")));
+            // var day11 = new Day11();
+            // Console.WriteLine(day11.Part2(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt")));
+
+            var day12 = new Day12();
+            Console.WriteLine(day12.ManhattanDistance2(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day12.txt")));
         }
     }
 }
