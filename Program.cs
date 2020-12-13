@@ -52,8 +52,13 @@ namespace AOC2020
             // var day11 = new Day11();
             // Console.WriteLine(day11.Part2(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt")));
 
-            var day12 = new Day12();
-            Console.WriteLine(day12.ManhattanDistance2(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day12.txt")));
+            // var day12 = new Day12();
+            // Console.WriteLine(day12.ManhattanDistance2(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day12.txt")));
+        
+            var day13 = new Day13();
+            Console.WriteLine(day13.FindEarliestSequential(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day13.txt")));
+        
+
         }
     }
 }
