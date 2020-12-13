@@ -65,13 +65,13 @@ public class Day13
             index = bus.Value;
             while (true)
             {
-                // Increment it by incrementor steps (start at 1)
+                // Increment it by incrementor steps
                 // We need to i
                 time += incrementor;
                 long busLine = long.Parse(bus.Key);
 
                 // If we find it match the index.. check the next bus.
-                // Get out of this loop and check the next bus.
+                // Get out of this loop and check the next bus - it MUST be a multiple. so update incrementor
                 if ((time + (long) index) % busLine == 0)
                 {
                     break;
