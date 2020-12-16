@@ -51,20 +51,21 @@ public class Day15
             {   
                 var diff = dict[answer] - recent;
                 if (dict.ContainsKey(diff)) {
-                    recent = dict[diff];      
+                    recent = dict[diff];
+                    dict[diff] = idx;          
                 } else {
                     // It doesnt exist, so reset back to 0
                     recent = 0;
                     dict.Add(diff, idx);
                 }
-                answer = diff; 
-                dict[diff] = idx;           
+                answer = diff;        
             }
             idx++;
         }
         return answer;
     }
 
+    // PART 2: Exact same copy as part 1, except we are counting up the 30,000,000th number
     public long Find30000000thNumber(string[] input)
     {
         var numbers = input[0].Split(',').Select(Int32.Parse).ToList();
@@ -104,14 +105,14 @@ public class Day15
             {   
                 var diff = dict[answer] - recent;
                 if (dict.ContainsKey(diff)) {
-                    recent = dict[diff];      
+                    recent = dict[diff];
+                    dict[diff] = idx;           
                 } else {
                     // It doesnt exist, so reset back to 0
                     recent = 0;
                     dict.Add(diff, idx);
                 }
-                answer = diff; 
-                dict[diff] = idx;           
+                answer = diff;               
             }
             idx++;
         }
