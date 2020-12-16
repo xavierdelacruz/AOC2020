@@ -24,7 +24,6 @@ public class Day13
 
         foreach (var bus in buses)
         {
-
             var firstMod = line % bus;
             var difference = Math.Abs(bus - firstMod);
             var nextTime = Math.Abs(line + difference);

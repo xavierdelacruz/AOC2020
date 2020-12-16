@@ -2,6 +2,7 @@
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics;
 
 namespace AOC2020
 {
@@ -58,8 +59,21 @@ namespace AOC2020
             // var day13 = new Day13();
             // Console.WriteLine(day13.FindEarliestSequential(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day13.txt")));
                     
-            var day14 = new Day14();
-            Console.WriteLine(day14.Part1(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt")));
+            // var day14 = new Day14();
+            // Console.WriteLine(day14.Part1(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\testinput.txt")));
+
+            var day15 = new Day15();
+            var timer = new Stopwatch();
+
+            timer.Start();
+            Console.WriteLine(day15.Find2020thNumber(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day15.txt")));
+            Console.WriteLine("Day 15 Part 1 time: " + timer.ElapsedMilliseconds.ToString() + " ms");
+            timer.Stop();
+            
+            timer.Restart();
+            Console.WriteLine(day15.Find30000000thNumber(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day15.txt")));
+            Console.WriteLine("Day 15 Part 2 time: " + timer.ElapsedMilliseconds.ToString() + " ms");
+            timer.Stop();
 
         }
     }
