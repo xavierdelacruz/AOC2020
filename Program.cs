@@ -75,6 +75,7 @@ namespace AOC2020
             
             var day16 = new Day16();
             Console.WriteLine(day16.FindErrorRate(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day16.txt").Where(x => !string.IsNullOrWhiteSpace(x)).ToArray()));
+            Console.WriteLine(day16.Part2(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day16.txt").Where(x => !string.IsNullOrWhiteSpace(x)).ToArray()));
 
         }
     }
