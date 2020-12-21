@@ -73,10 +73,23 @@ namespace AOC2020
             // Console.WriteLine("Day 15 Part 2 time: " + timer.ElapsedMilliseconds.ToString() + " ms");
             // timer.Stop();
             
-            var day16 = new Day16();
-            Console.WriteLine(day16.FindErrorRate(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day16.txt").Where(x => !string.IsNullOrWhiteSpace(x)).ToArray()));
-            Console.WriteLine(day16.Part2(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day16.txt").Where(x => !string.IsNullOrWhiteSpace(x)).ToArray()));
+            // var day16 = new Day16();
+            // Console.WriteLine(day16.FindErrorRate(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day16.txt").Where(x => !string.IsNullOrWhiteSpace(x)).ToArray()));
+            // Console.WriteLine(day16.Part2(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day16.txt").Where(x => !string.IsNullOrWhiteSpace(x)).ToArray()));
+            
+            // var day17 = new Day17();
+            // Console.WriteLine(day17.SolvePuzzle2(File.ReadAllText(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day17.txt")));
 
+            // var day18 = new Day18();
+            // Console.WriteLine(day18.Part2(File.ReadAllText(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day18.txt")));
+
+            // var day19 = new Day19();
+            // Console.WriteLine(day19.CountInstances(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day19.txt")));
+
+            // var day20 = new Day20();
+            // Console.WriteLine(day19.BruteForce(File.ReadAllLines(@"C:\Users\xdela\Documents\Git\AOC2020\Input Day20.txt")));
+            
+            
         }
     }
 }
